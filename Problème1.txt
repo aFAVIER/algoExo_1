@@ -1,0 +1,22 @@
+Problème:
+---------
+
+1er partie:
+- page internet qui affiche les 200 premiers nombres
+- titre h1 "Ma liste" (jolie)
+- couleur de fond
+- liste jolie
+- faire une belle page
+
+2eme partie:
+- chaque nombre dans une petite case (40px de coté)
+- tous les nombres côte à côte
+- nombres qui revient a la ligne lorsque plus de place sur la page
+- case avec une shadow box.
+- le faire responsive
+
+3eme partie:
+- faire 200 case donc nombre de 1 à 200
+
+4eme partie:
+- quand on ouvre la page : demande le nombre de case et affiche 
