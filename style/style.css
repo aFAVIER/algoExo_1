@@ -29,6 +29,11 @@ li{
 	box-shadow: 2px 2px 4px grey;/*					ombrage de la box*/
 	margin: 2px;/*----------------------------------marge extérieur de 2px*/
 	background-color: #51acfc;/*					couleur de fond*/
+	color: white;
+	text-shadow: 1px 1px 2px grey;
 }
 
-
+li:nth-child(2n+2){
+	background-color: white;
+	color:black;
+}
