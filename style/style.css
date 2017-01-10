@@ -1,16 +1,34 @@
 body{
-	margin: 0;
-	background-color: #d6eafc;
+	margin: 0;/*------------------------------------marges extérieures a 0*/
+	background-color: #d6eafc;/*					couleur de fond*/
 }
 header{
-	background-color: #faff75;
-	margin: 0;
-}
+	background-color: #faff75;/*--------------------couleur de fond*/
+	margin: 0;/*									marges extérieur a 0*/
+	border-radius: 20px;/*--------------------------angles en congés de 20px*/
+	box-shadow: 4px 4px 10px black;/*				ombre de la box*/
+}   
 h1{
-	text-align: center;
-	text-shadow: 2px 2px 8px black;
-	/*color: #4a9de6;*/
-	color: white;
+	text-align: center;/*---------------------------aligner le texte*/
+	text-shadow: 2px 2px 8px black;/*				ombre du text*/
+	color: white;/*---------------------------------couleur du texte*/
+}
+ul{
+	display: flex;/*--------------------------------comportement des éléments*/
+	justify-content: center;/*						centrer le contenu*/
+	flex-wrap: wrap;/*------------------------------permet de rendre responsive les li*/
+}
+li{
+	display: flex;/*--------------------------------comportement des éléments*/
+	border: 1px solid black;/*						bordure des box*/
+	width: 39px;/*----------------------------------largeur*/
+	height: 39px;/*									hauteur*/
+	justify-content: center;/*----------------------centre sur X*/
+	align-items: center;/*							centre sur Y*/
+	list-style: none;/*-----------------------------supprime les puces de la liste*/
+	box-shadow: 2px 2px 4px grey;/*					ombrage de la box*/
+	margin: 2px;/*----------------------------------marge extérieur de 2px*/
+	background-color: #51acfc;/*					couleur de fond*/
 }
 
 

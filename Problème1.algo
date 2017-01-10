@@ -4,6 +4,6 @@ Variables nb:entier
 Debut
 	Pour nb Allant de 1 A 200 Au pas de 1
 		Faire
-			affiche (nb)
+			affiche <li>(nb)</li>
 		Fpour
 Fin
