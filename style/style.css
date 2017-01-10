@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	background-color: #d6eafc;
+}
+header{
+	background-color: #faff75;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 8px black;
+	/*color: #4a9de6;*/
+	color: white;
+}
+
+
